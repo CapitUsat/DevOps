@@ -1,0 +1,19 @@
+services:
+  backend:
+    build: ../DevopsBackend
+    image: backend:2.0
+    container_name: backend
+    restart: always
+    volumes:
+      - backend_data:/app
+
+  frontend:
+    build: ../DevOps_Frontend
+    image: frontend:2.0
+    container_name: frontend
+    restart: always
+    ports:
+      - "80:80"
+
+volumes:
+  backend_data:
