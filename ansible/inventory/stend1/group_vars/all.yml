@@ -1,0 +1,6 @@
+frontend_repo: "https://github.com/CapitUsat/DevOps_Frontend.git"
+backend_repo: "https://github.com/CapitUsat/DevOps_Backend.git"
+devops_repo: "https://github.com/CapitUsat/DevOps.git"
+
+project_root: "/home/tzary/projects"
+compose_file: "/home/tzary/projects/DevOps/docker-compose.yaml"
